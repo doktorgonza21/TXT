@@ -1,1 +1,16 @@
+Bug report:
+          
+    ID: 001
+    Title: The 'Commit new file' button don't active on the file add page
+    Description: The 'Commit new file' button don't active on the file add page after filling the valid file name
+    Steps:
+          1) Open https://github.com
+          2) Navigate to 'some repository'
+          3) Press 'Add file' and chose 'Create new file'
+          4) fill the file name vith valid data
+          5) Look at the 'Commit new file' button
 
+    Expected result: The 'Commit new file' button is active and file creates
+    Actual result: The 'Commit new file' button don't active
+    Screenshot: http://mycreenshot.com/myscreenshot.png
+  
