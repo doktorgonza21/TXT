@@ -1,0 +1,7 @@
+skill:
+
+	Skill1: Linux command line
+	Skill2: Git
+	Skill3: JavaSkript
+	Skill4: Postman
+	Skill5: etc.

@@ -1,0 +1,7 @@
+pref:
+
+	FavFilm: The Star Wars saga
+	FavSeries: Doctor Who
+	FavFood: Fried Shrimps with hot sause
+	FavSeason: Summer
+	FavSide: The Dark side )
