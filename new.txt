@@ -1,0 +1,7 @@
+bio:
+    
+	FirstName: Doktor
+    	LastName: Gonza
+    	Age: 35
+    	PetsAm: 1
+    	FuSalary: 100500$
