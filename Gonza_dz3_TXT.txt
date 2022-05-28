@@ -1,0 +1,120 @@
+TXT
+1. Создать внешний репозиторий c названием TXT.
+
+result: done
+
+2. Клонировать репозиторий TXT на локальный компьютер.
+
+comand: git clone "https://github.com/doktorgonza21/TXT.git"
+
+result: rep was cloned
+
+3. Внутри локального TXT создать файл “new.txt”.
+
+comand: touch new.txt
+
+result: file was created
+
+4. Добавить файл под гит.
+
+command: git add new.txt
+
+result: file was added
+
+5. Закоммитить файл.
+
+command: git commit -m "add new.txt"
+
+result: [main (root-commit) 2b5a8da] add new.txt
+ 	1 file changed, 0 insertions(+), 0 deletions(-)
+ 	create mode 100644 new.txt
+
+6. Отправить файл на внешний GitHub репозиторий.
+
+command: git push
+
+result: pushed
+
+7. Отредактировать содержание файла “new.txt” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате TXT.
+
+command: nano new.txt
+
+result: done
+
+8. Отправить изменения на внешний репозиторий.
+
+command: git add new.txt; git commit -m "update info new.txt"; git push
+
+result: [main 7372b68] update info new.txt
+ 	1 file changed, 7 insertions(+)
+	Enumerating objects: 5, done.
+	Counting objects: 100% (5/5), done.
+	Delta compression using up to 8 threads
+	Compressing objects: 100% (2/2), done.
+	Writing objects: 100% (3/3), 322 bytes | 322.00 KiB/s, done.
+	Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+	To https://github.com/doktorgonza21/TXT.git
+   	2b5a8da..7372b68  main -> main
+
+9. Создать файл preferences.txt
+
+command: touch preferences.txt
+
+result: file was created
+
+10. В файл preferences.txt” добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате TXT.
+
+command: nano preferences.txt; nano skills.txt
+
+result: file was created and info was added
+
+11. Создать файл sklls.txt добавить информацию о скиллах которые будут изучены на курсе в формате TXT
+
+command: touch skills.txt; nano skills.txt
+
+result: file was created and info was added
+
+12. Сделать коммит в одну строку.
+
+command: git add *; git commit -m "add skills.txt and preferences.txt";
+
+result: [main bad6d05] add skills.txt and preferences.txt
+ 	2 files changed, 14 insertions(+)
+ 	create mode 100644 preferences.txt
+ 	create mode 100644 skills.txt
+	
+13. Отправить сразу 2 файла на внешний репозиторий.
+
+command: git push
+
+result: Enumerating objects: 5, done.
+	Counting objects: 100% (5/5), done.
+	Delta compression using up to 8 threads
+	Compressing objects: 100% (4/4), done.
+	Writing objects: 100% (4/4), 517 bytes | 517.00 KiB/s, done.
+	Total 4 (delta 0), reused 0 (delta 0), pack-reused 0
+	To https://github.com/doktorgonza21/TXT.git
+   	7372b68..bad6d05  main -> main
+
+14. На веб интерфейсе создать файл bug_report.txt.
+
+result: done
+
+15. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+
+result: done
+
+16. На веб интерфейсе модифицировать файл bug_report.txt, добавить баг репорт в формате TXT.
+
+result: info was added
+
+17. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+
+result: done
+
+18. Синхронизировать внешний и локальный репозиторий TXT
+
+command: git pull
+
+result: bug_report.txt was added to local rep
+
